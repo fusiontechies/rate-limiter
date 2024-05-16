@@ -79,6 +79,9 @@ const checkBan = async (req, res, next) => {
 
 const app = express();
 
+// Enable trust proxy
+app.set('trust proxy', 1);
+
 // Apply the ban check middleware to all requests
 app.use(checkBan);
 
