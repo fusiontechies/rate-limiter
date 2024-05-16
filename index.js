@@ -89,7 +89,7 @@ app.use(checkBan);
 app.use(limiter);
 
 app.get("/", (req, res) => {
-    res.send("Hello World!");
+    res.send("Hello World! your ip is " + req.ip);
 });
 
 app.listen(process.env.PORT || 3000, () => {
