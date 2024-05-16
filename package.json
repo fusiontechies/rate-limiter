@@ -1,0 +1,19 @@
+{
+  "name": "rate-limiting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sinehan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "ipaddr.js": "^2.2.0",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^8.3.5"
+  }
+}
